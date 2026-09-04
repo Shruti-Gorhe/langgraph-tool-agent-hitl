@@ -1,4 +1,4 @@
-# ZenLabs Week 4 — Tool-Using Agent + HITL
+Tool-Using Agent + HITL
 
 This project extends the Week 3 RAG benchmark instead of replacing it.
 
