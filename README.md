@@ -121,3 +121,7 @@ AGENT_RAG_METHOD=hybrid
 ```
 
 The RAG strategy/method can be changed after reviewing the Week 3 benchmark results.
+
+##SAMPLE COMPLEX QUERY
+
+For EMP001, retrieve their current leave balance and check the Northwind leave policy to determine whether they can take 7 working days of leave. Calculate the percentage of their current balance that would remain afterward. If they would still have at least 50% of their original balance remaining and there is no policy restriction preventing it, calculate the new leave balance and prepare an update to EMP001’s record. Do not execute the update without human approval. In your final response, clearly distinguish between what you verified, what you calculated, and what is waiting for approval.
