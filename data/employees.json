@@ -1,0 +1,20 @@
+{
+  "EMP001": {
+    "name": "Aarav Mehta",
+    "department": "Engineering",
+    "job_title": "Software Engineer",
+    "leave_balance": 13
+  },
+  "EMP002": {
+    "name": "Maya Iyer",
+    "department": "Product",
+    "job_title": "Product Analyst",
+    "leave_balance": 12
+  },
+  "EMP003": {
+    "name": "Rohan Shah",
+    "department": "Finance",
+    "job_title": "Financial Analyst",
+    "leave_balance": 21
+  }
+}

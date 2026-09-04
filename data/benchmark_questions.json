@@ -1,0 +1,185 @@
+[
+  {
+    "qid": "q01",
+    "question": "How many days of paid annual leave does a full-time employee receive?",
+    "answer": "22 days per calendar year.",
+    "query_style": "paraphrase",
+    "evidence": [
+      {"source": "leave-policy.md", "text": "22 days of paid annual leave"}
+    ]
+  },
+  {
+    "qid": "q02",
+    "question": "What is the carryover limit for unused annual leave days?",
+    "answer": "A maximum of 5 days may be carried over, and they must be used by March 31.",
+    "query_style": "keyword",
+    "evidence": [
+      {"source": "leave-policy.md", "text": "5 unused annual leave days"}
+    ]
+  },
+  {
+    "qid": "q03",
+    "question": "How much does the company reimburse per mile when I drive my own car?",
+    "answer": "$0.62 per mile, calculated from the standard route.",
+    "query_style": "paraphrase",
+    "evidence": [
+      {"source": "expense-reimbursement-policy.md", "text": "$0.62 per mile"},
+      {"source": "travel-policy.md", "text": "$0.62 per mile"}
+    ]
+  },
+  {
+    "qid": "q04",
+    "question": "What is the submission deadline for expense claims after an expense is incurred?",
+    "answer": "Within 30 days; claims older than 90 days are never reimbursed.",
+    "query_style": "keyword",
+    "evidence": [
+      {"source": "expense-reimbursement-policy.md", "text": "Claims older than 90 days"}
+    ]
+  },
+  {
+    "qid": "q05",
+    "question": "How quickly must an employee report a suspected security incident to IT?",
+    "answer": "Within 1 hour of discovery.",
+    "query_style": "paraphrase",
+    "evidence": [
+      {"source": "it-security-policy.md", "text": "within 1 hour of discovery"},
+      {"source": "data-privacy-policy.md", "text": "within 1 hour of discovery"}
+    ]
+  },
+  {
+    "qid": "q06",
+    "question": "What encryption standard is used to protect personal data at rest?",
+    "answer": "AES-256.",
+    "query_style": "keyword",
+    "evidence": [
+      {"source": "data-privacy-policy.md", "text": "AES-256"},
+      {"source": "it-security-policy.md", "text": "AES-256"}
+    ]
+  },
+  {
+    "qid": "q07",
+    "question": "How long does Northwind have to notify the supervisory authority after discovering a data breach?",
+    "answer": "Within 72 hours of becoming aware of the breach.",
+    "query_style": "paraphrase",
+    "evidence": [
+      {"source": "data-privacy-policy.md", "text": "within 72 hours"}
+    ]
+  },
+  {
+    "qid": "q08",
+    "question": "What is the annual home-office stipend amount for remote workers?",
+    "answer": "$500 per year, claimed through the Expense Portal.",
+    "query_style": "keyword",
+    "evidence": [
+      {"source": "remote-work-policy.md", "text": "$500 annual home-office stipend"}
+    ]
+  },
+  {
+    "qid": "q09",
+    "question": "After how many months of employment can someone start working from home?",
+    "answer": "After completing the first 90 days of employment.",
+    "query_style": "paraphrase",
+    "evidence": [
+      {"source": "remote-work-policy.md", "text": "first 90 days of employment"}
+    ]
+  },
+  {
+    "qid": "q10",
+    "question": "What is the company-wide default anchor day for in-office attendance?",
+    "answer": "Wednesday.",
+    "query_style": "keyword",
+    "evidence": [
+      {"source": "remote-work-policy.md", "text": "anchor day is Wednesday"}
+    ]
+  },
+  {
+    "qid": "q11",
+    "question": "What are the standard vendor payment terms in the procurement policy?",
+    "answer": "Net 30 from the invoice date.",
+    "query_style": "keyword",
+    "evidence": [
+      {"source": "procurement-policy.md", "text": "Net 30"}
+    ]
+  },
+  {
+    "qid": "q12",
+    "question": "How many vendor quotes are required for purchases over $10,000?",
+    "answer": "At least three written vendor quotes.",
+    "query_style": "paraphrase",
+    "evidence": [
+      {"source": "procurement-policy.md", "text": "three written vendor quotes"}
+    ]
+  },
+  {
+    "qid": "q13",
+    "question": "What is the minimum password length required by the IT security policy?",
+    "answer": "At least 14 characters.",
+    "query_style": "keyword",
+    "evidence": [
+      {"source": "it-security-policy.md", "text": "at least 14 characters"}
+    ]
+  },
+  {
+    "qid": "q14",
+    "question": "How often must employees rotate their passwords?",
+    "answer": "Every 90 days.",
+    "query_style": "paraphrase",
+    "evidence": [
+      {"source": "it-security-policy.md", "text": "rotated every 90 days"}
+    ]
+  },
+  {
+    "qid": "q15",
+    "question": "What is the annual tuition assistance limit Northwind reimburses?",
+    "answer": "$5,000 per year.",
+    "query_style": "keyword",
+    "evidence": [
+      {"source": "benefits-policy.md", "text": "$5,000 per year"}
+    ]
+  },
+  {
+    "qid": "q16",
+    "question": "How much of the medical premium does Northwind cover for the employee?",
+    "answer": "80% of the medical premium.",
+    "query_style": "paraphrase",
+    "evidence": [
+      {"source": "benefits-policy.md", "text": "80% of the medical premium"}
+    ]
+  },
+  {
+    "qid": "q17",
+    "question": "What value of gift requires disclosure in the Gifts Register?",
+    "answer": "Any gift or entertainment over $100 must be disclosed and recorded in the Gifts Register.",
+    "query_style": "keyword",
+    "evidence": [
+      {"source": "code-of-conduct.md", "text": "over $100"}
+    ]
+  },
+  {
+    "qid": "q18",
+    "question": "Within how many days must a new employee complete mandatory training modules?",
+    "answer": "Within the first 30 days.",
+    "query_style": "paraphrase",
+    "evidence": [
+      {"source": "onboarding-guide.md", "text": "within the first 30 days"}
+    ]
+  },
+  {
+    "qid": "q19",
+    "question": "What is the daily per diem for domestic business travel?",
+    "answer": "$65 per day.",
+    "query_style": "keyword",
+    "evidence": [
+      {"source": "travel-policy.md", "text": "$65 per day"}
+    ]
+  },
+  {
+    "qid": "q20",
+    "question": "How much parental leave does the primary caregiver receive?",
+    "answer": "16 weeks of fully paid parental leave.",
+    "query_style": "paraphrase",
+    "evidence": [
+      {"source": "leave-policy.md", "text": "16 weeks of fully paid parental leave"}
+    ]
+  }
+]
