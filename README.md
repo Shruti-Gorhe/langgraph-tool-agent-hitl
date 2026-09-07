@@ -124,4 +124,15 @@ The RAG strategy/method can be changed after reviewing the Week 3 benchmark resu
 
 ##SAMPLE COMPLEX QUERY
 
-For EMP001, retrieve their current leave balance and check the Northwind leave policy to determine whether they can take 7 working days of leave. Calculate the percentage of their current balance that would remain afterward. If they would still have at least 50% of their original balance remaining and there is no policy restriction preventing it, calculate the new leave balance and prepare an update to EMP001’s record. Do not execute the update without human approval. In your final response, clearly distinguish between what you verified, what you calculated, and what is waiting for approval.
+1)For EMP001, retrieve their current leave balance and check the Northwind leave policy to determine whether they can take 7 working days of leave. Calculate the percentage of their current balance that would remain afterward. If they would still have at least 50% of their original balance remaining and there is no policy restriction preventing it, calculate the new leave balance and prepare an update to EMP001’s record. Do not execute the update without human approval. In your final response, clearly distinguish between what you verified, what you calculated, and what is waiting for approval.
+
+2)Remote-work policy + stipend + employee data
+For EMP001, verify the company’s remote-work requirements and determine whether they are eligible for the home-office stipend. Retrieve the stipend amount from the policy, calculate its monthly equivalent, and if the employee record needs to be updated to reflect eligibility, prepare the update but wait for human approval before executing it.
+
+3)Complex reimbursement calculation
+Check the relevant Northwind expense reimbursement policy and determine whether a remote employee can claim a $1,200 home-office equipment purchase. Calculate what percentage of the annual $500 home-office stipend this expense represents, determine whether the purchase can be fully covered under the policy, and if an employee record needs to be modified, request the change only after human approval.
+
+4)Multi-policy security scenario
+For EMP001, retrieve the remote-work and IT-security policies. Determine the security requirements they must satisfy when working remotely, and calculate how many of the listed requirements they currently satisfy based on the employee information available. If any employee record needs to be changed to reflect compliance, prepare the change but require human approval before executing it.
+
+5)Perform a complete remote-work readiness assessment for EMP001. Retrieve their current employee information, search the relevant remote-work, IT-security, and benefits policies, determine their eligibility for the home-office stipend, calculate the monthly value of that stipend and the percentage of their current leave balance that would remain after taking 5 days of leave. If all applicable conditions are satisfied, prepare the necessary employee-record update, but do not execute any data modification until I explicitly approve it. Clearly separate the information you retrieved, the calculations you performed, and the action awaiting approval.
